@@ -1,0 +1,195 @@
+/* Syntax Highlighting for Code */
+.code-syntax {
+    font-family: 'Monaspace Radon', monospace !important;
+    color: #008c7d !important;
+}
+
+/* Line Numbers Style */
+.line-numbers {
+    position: relative !important;
+    width: 35px !important;
+    font-size: 16px !important;
+    font-family: 'Geist Mono' !important;
+    opacity: 0.3;
+}
+
+/* Shadow Effect for Code Canvas */
+.editor .scroll-decoration {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75) !important;
+    top: -6px !important;
+}
+
+/* Toolbar Visibility When Tabs Are Enabled */
+.editor-toolbar {
+    display: none !important;
+}
+
+/* Sidebar Shadow */
+.sidebar {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+}
+
+/* Selected Item in File Explorer */
+.file-explorer .selected-item {
+    background-color: #4f5971 !important;
+    opacity: 1 !important;
+    border-top: 1px solid #727b90;
+    border-bottom: 1px solid #727b90;
+}
+
+/* Label for Selected File Explorer Items */
+.file-explorer .selected-item .item-label {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+/* Action Buttons in File Explorer */
+.file-explorer .action-buttons {
+    display: none;
+}
+
+/* File Explorer Item Labels */
+.file-item-labels {
+    font-family: 'Geist Mono', monospace !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #FFF !important;
+}
+
+/* Top Shadow for Sidebar */
+.sidebar-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75) !important;
+    top: -3px !important;
+}
+
+/* Sidebar Title Style */
+.sidebar-header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.sidebar-header h2 {
+    font-weight: bold !important;
+    font-size: 14px !important;
+    text-transform: capitalize;
+    color: #f4a261 !important;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sidebar-header h2::before {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 1.5rem;
+    content: '✨';
+}
+
+/* Scrollbar Customization */
+.scrollbar {
+    position: absolute !important;
+    right: 1px !important;
+    width: 1px !important;
+    background: #bc9abc !important;
+    left: auto !important;
+}
+
+.toolbar-icons, .word-wrap-icon {
+    display: block !important;
+}
+
+/* Tooltip Style */
+.tooltip {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45) !important;
+    padding: 10px !important;
+    background-image: linear-gradient(#3c3c50, #2a2b38) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+/* Project Title Bar Style */
+.title-bar .title-container .title .command-buttons {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Project Title Alignment */
+.titlebar-left {
+    justify-content: flex-start !important;
+    flex-grow: 0 !important;
+    width: auto !important;
+}
+
+/* Search Label Style */
+.search-label {
+    font-family: 'Geist Mono' !important;
+    font-size: 14px !important;
+    color: #fff;
+    display: block;
+}
+
+/* Search Icon Visibility */
+.search-icon {
+    display: none !important;
+}
+
+.search-icon-placeholder {
+    display: none !important;
+}
+
+.arrow-icons {
+    display: none !important;
+}
+
+.titlebar-right > * {
+    display: none !important;
+}
+
+/* Command Palette Style */
+.command-palette {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45) !important;
+    padding: 10px 10px 18px !important;
+    background-image: linear-gradient(#3c3c50, #2a2b38) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+}
+
+/* List Background Transparency */
+.list-background {
+    background: transparent !important;
+}
+
+/* List Item Hover Effect */
+.list-item:hover {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.notification-toast:hover {
+    background: none !important;
+}
+
+/* Command Palette Input Box */
+.command-palette-input {
+    border-radius: 12px !important;
+    padding: 8px !important;
+    border: none !important;
+    background-color: rgba(34, 34, 34, 0.40) !important;
+    font-family: 'Geist Mono' !important;
+    font-size: 14px !important;
+    margin-bottom: 16px !important;
+}
+
+/* Command Palette Input Placeholder */
+.command-palette-input::placeholder {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* General Label Styling */
+.general-label {
+    color: #fff !important;
+    font-size: 14px !important;
+}
